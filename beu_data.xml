@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beu_config>
+    <metadata>
+        <total_colleges>38</total_colleges>
+        <total_departments>34</total_departments>
+        <total_batches>5</total_batches>
+        <university>Bihar Engineering University, Patna</university>
+    </metadata>
+
+    <colleges>
+        <college code="101">Bhagalpur College of Engineering, Bhagalpur</college>
+        <college code="102">Muzaffarpur Institute of Technology, Muzaffarpur</college>
+        <college code="103">Gaya College of Engineering, Gaya</college>
+        <college code="104">Darbhanga College of Engineering, Darbhanga</college>
+        <college code="105">Nalanda College of Engineering, Chandi</college>
+        <college code="106">Motihari College of Engineering, Motihari</college>
+        <college code="107">Sitamarhi Institute of Technology, Sitamarhi</college>
+        <college code="108">Bakhtiyarpur College of Engineering, Patna</college>
+        <college code="109">BP Mandal College of Engineering, Madhepura</college>
+        <college code="110">RRSDCE, Begusarai</college>
+        <college code="111">Katihar Engineering College, Katihar</college>
+        <college code="112">Shershah Engineering College, Sasaram</college>
+        <college code="113">Purnea College of Engineering, Purnea</college>
+        <college code="114">Saharsa College of Engineering, Saharsa</college>
+        <college code="115">Supaul College of Engineering, Supaul</college>
+        <college code="116">GEC Khagaria</college>
+        <college code="134">GEC Banka</college>
+        <college code="118">GEC Vaishali</college>
+        <college code="119">GEC Jamui</college>
+        <college code="120">GEC West Champaran</college>
+        <college code="121">GEC Aurangabad</college>
+        <college code="122">GEC Arwal</college>
+        <college code="123">GEC Siwan</college>
+        <college code="124">GEC Gopalganj</college>
+        <college code="125">GEC Madhubani</college>
+        <college code="126">GEC Jehanabad</college>
+        <college code="127">GEC Araria</college>
+        <college code="128">GEC Kishanganj</college>
+        <college code="129">GEC Sheohar</college>
+        <college code="130">GEC Sheikhpura</college>
+        <college code="131">GEC Lakhisarai</college>
+        <college code="132">GEC Samastipur</college>
+        <college code="133">GEC Munger</college>
+        <college code="139">GEC Nawada</college>
+        <college code="135">GEC Buxar</college>
+        <college code="136">GEC Bhojpur</college>
+        <college code="137">GEC Kaimur</college>
+        <college code="138">GEC Rohtas</college>
+    </colleges>
+
+    <departments>
+        <dept code="101">Civil Engineering</dept>
+        <dept code="102">Mechanical Engineering</dept>
+        <dept code="103">Electrical Engineering</dept>
+        <dept code="104">Electronics &amp; Communication Engineering</dept>
+        <dept code="105">Computer Science &amp; Engineering</dept>
+        <dept code="106">Information Technology</dept>
+        <dept code="107">Leather Technology</dept>
+        <dept code="108">Electrical &amp; Electronics Engineering</dept>
+        <dept code="109">Instrumentation &amp; Control</dept>
+        <dept code="110">Production Engineering</dept>
+
+        <dept code="151">CSE (Artificial Intelligence)</dept>
+        <dept code="152">CSE (Machine Learning)</dept>
+        <dept code="153">CSE (Data Science)</dept>
+        <dept code="154">CSE (Cyber Security)</dept>
+        <dept code="155">CSE (Internet of Things - IoT)</dept>
+        <dept code="156">CSE (Cloud Computing)</dept>
+        <dept code="157">CSE (AI &amp; Machine Learning)</dept>
+        <dept code="158">CSE (Networks)</dept>
+        <dept code="159">CSE (Design &amp; Creative Technology)</dept>
+        <dept code="160">Computer Science &amp; Business Systems</dept>
+
+        <dept code="111">Artificial Intelligence &amp; Data Science</dept>
+        <dept code="112">Biomedical Engineering</dept>
+        <dept code="113">Mechatronics</dept>
+        <dept code="114">Robotics &amp; Automation</dept>
+        <dept code="115">3D Animation &amp; Graphics</dept>
+        <dept code="125">VLSI Design &amp; Technology</dept>
+        <dept code="126">Fire Technology &amp; Industrial Safety</dept>
+        <dept code="127">Food Technology</dept>
+        <dept code="128">Dairy Technology</dept>
+        <dept code="129">Textile Engineering</dept>
+        <dept code="130">Agriculture Engineering</dept>
+        <dept code="131">Mining Engineering</dept>
+        <dept code="132">Petroleum Engineering</dept>
+        <dept code="133">Aeronautical Engineering</dept>
+    </departments>
+    <batches>
+        <batch code="22">22</batch>
+        <batch code="23">23</batch>
+        <batch code="24">24</batch>
+        <batch code="25">25</batch>
+        <batch code="26">26</batch>
+    </batches>
+    <semesters>
+        <sem code="1">I</sem>
+        <sem code="2">II</sem>
+        <sem code="3">III</sem>
+        <sem code="4">IV</sem>
+        <sem code="5">V</sem>
+        <sem code="6">VI</sem>
+        <sem code="7">VII</sem>
+        <sem code="8">VIII</sem>
+    </semesters>
+    <exam_held_records>
+        <exam_held id="1" batch="22" sem="6">November/2025</exam_held>
+        <exam_held id="2" batch="22" sem="7">February/2025</exam_held>
+        <exam_held id="3" batch="24" sem="2">November/2025</exam_held>
+    </exam_held_records>
+
+</beu_config>
