@@ -12,7 +12,6 @@ def fetch_student_result(reg_no, sem, year, exam_held):
         "year": year,
         "exam_held": exam_held
     }
-
     response = requests.get(BASE_URL, params=params)
     response.raise_for_status()
     result = response.json()
