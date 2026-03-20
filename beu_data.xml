@@ -8,44 +8,64 @@
     </metadata>
 
     <colleges>
-        <college code="101">Bhagalpur College of Engineering, Bhagalpur</college>
-        <college code="102">Muzaffarpur Institute of Technology, Muzaffarpur</college>
-        <college code="103">Gaya College of Engineering, Gaya</college>
-        <college code="104">Darbhanga College of Engineering, Darbhanga</college>
-        <college code="105">Nalanda College of Engineering, Chandi</college>
-        <college code="106">Motihari College of Engineering, Motihari</college>
-        <college code="107">Sitamarhi Institute of Technology, Sitamarhi</college>
-        <college code="108">Bakhtiyarpur College of Engineering, Patna</college>
-        <college code="109">BP Mandal College of Engineering, Madhepura</college>
-        <college code="110">RRSDCE, Begusarai</college>
-        <college code="111">Katihar Engineering College, Katihar</college>
-        <college code="112">Shershah Engineering College, Sasaram</college>
-        <college code="113">Purnea College of Engineering, Purnea</college>
-        <college code="114">Saharsa College of Engineering, Saharsa</college>
-        <college code="115">Supaul College of Engineering, Supaul</college>
-        <college code="116">GEC Khagaria</college>
-        <college code="134">GEC Banka</college>
-        <college code="118">GEC Vaishali</college>
-        <college code="119">GEC Jamui</college>
-        <college code="120">GEC West Champaran</college>
-        <college code="121">GEC Aurangabad</college>
-        <college code="122">GEC Arwal</college>
-        <college code="123">GEC Siwan</college>
-        <college code="124">GEC Gopalganj</college>
-        <college code="125">GEC Madhubani</college>
-        <college code="126">GEC Jehanabad</college>
-        <college code="127">GEC Araria</college>
-        <college code="128">GEC Kishanganj</college>
-        <college code="129">GEC Sheohar</college>
-        <college code="130">GEC Sheikhpura</college>
-        <college code="131">GEC Lakhisarai</college>
-        <college code="132">GEC Samastipur</college>
-        <college code="133">GEC Munger</college>
-        <college code="139">GEC Nawada</college>
-        <college code="135">GEC Buxar</college>
-        <college code="136">GEC Bhojpur</college>
-        <college code="137">GEC Kaimur</college>
-        <college code="138">GEC Rohtas</college>
+        <college code="102" type="private">VIDYA VIHAR INSTITUTE OF TECHNOLOGY, PURNIA</college>
+        <college code="103" type="private">NETAJI SUBHAS INSTITUTE OF TECHNOLOGY, BIHTA, PATNA</college>
+        <college code="106" type="private">SITYOG INSTITUTE OF TECHNOLOGY, AURANGABAD</college>
+        <college code="107" type="government">MUZAFFARPUR INSTITUTE OF TECHNOLOGY, MUZAFFARPUR</college>
+        <college code="108" type="government">BHAGALPUR COLLEGE OF ENGINEERING, BHAGALPUR</college>
+        <college code="109" type="government">NALANDA COLLEGE OF ENGINEERING, CHANDI, NALANDA</college>
+        <college code="110" type="government">GAYA COLLEGE OF ENGINEERING, GAYA</college>
+        <college code="111" type="government">DARBHANGA COLLEGE OF ENGINEERING, DARBHANGA</college>
+        <college code="113" type="government">MOTIHARI COLLEGE OF ENGINEERING, MOTIHARI, EAST CHAMPARAN</college>
+        <college code="117" type="government">LOK NAYAK JAI PRAKASH INSTITUTE OF TECHNOLOGY, CHAPRA, SARAN</college>
+        <college code="118" type="private">BUDDHA INSTITUTE OF TECHNOLOGY, GAYA</college>
+        <college code="119" type="private">ADWAITA MISSION INSTITUTE OF TECHNOLOGY, BANKA</college>
+        <college code="122" type="private">EXALT COLLEGE OF ENGG. &Amp; TECH., VAISHALI</college>
+        <college code="123" type="private">SIWAN ENGINEERING &amp; TECHNICAL INSTITUTE, SIWAN</college>
+        <college code="124" type="government">SERSHAH ENGINEERING COLLEGE, SASARAM, ROHTAS</college>
+        <college code="125" type="government">RASHTRAKAVI RAMDHARI SINGH DINKAR COLLEGE OF ENGINEERING, BEGUSARAI</college>
+        <college code="126" type="government">BAKHTIYARPUR COLLEGE OF ENGINEERING, PATNA</college>
+        <college code="127" type="government">SITAMARHI INSTITUTE OF TECHNOLOGY, SITAMARHI</college>
+        <college code="128" type="government">B. P. MANDAL COLLEGE OF ENGINEERING, MADHEPURA</college>
+        <college code="129" type="government">KATIHAR ENGINEERING COLLEGE, KATIHAR</college>
+        <college code="130" type="government">SUPAUL COLLEGE OF ENGINEERING, SUPAUL</college>
+        <college code="131" type="government">PURNEA COLLEGE OF ENGINEERING, PURNEA</college>
+        <college code="132" type="government">Saharsa College of Engineering, Saharsa</college>
+        <college code="133" type="government">Government Engineering College, Jamui</college>
+        <college code="134" type="government">Government Engineering College, Banka</college>
+        <college code="135" type="government">GOVERNMENT ENGINEERING COLLEGE, VAISHALI</college>
+        <college code="136" type="private">MOTHERS INSTITUTE OF TECHNOLOGY, BIHTA</college>
+        <college code="139" type="private">R.P. SHARMA INSTITUTE OF TECHNOLOGY, PATNA</college>
+        <college code="140" type="private">MAULANA AZAD COLLEGE OF ENGINEERING &amp; TECHNOLOGY, NEORAGANJ, NEORA, PATNA</college>
+        <college code="141" type="government">Government Engineering College, Nawada</college>
+        <college code="142" type="government">GOVERNMENT ENGINEERING COLLEGE, KISHANGANJ</college>
+        <college code="144" type="government">GOVERNMENT ENGINEERING COLLEGE, MUNGER</college>
+        <college code="145" type="government">Government Engineering College, Sheohar</college>
+        <college code="146" type="government">GOVERNMENT ENGINEERING COLLEGE, BETTIAH, WEST CHAMPARAN</college>
+        <college code="147" type="government">GOVERNMENT ENGINEERING COLLEGE, AURANGABAD</college>
+        <college code="148" type="government">Government Engineering College, Kaimur</college>
+        <college code="149" type="government">Government Engineering College, Gopalganj</college>
+        <college code="150" type="government">GOVERNMENT ENGINEERING COLLEGE, MADHUBANI</college>
+        <college code="151" type="government">GOVERNMENT ENGINEERING COLLEGE, SIWAN</college>
+        <college code="152" type="government">GOVERNMENT ENGINEERING COLLEGE, JEHANABAD</college>
+        <college code="153" type="government">Government Engineering College, Arwal</college>
+        <college code="154" type="government">GOVERNMENT ENGINEERING COLLEGE, KHAGARIA</college>
+        <college code="155" type="government">GOVERNMENT ENGINEERING COLLEGE, BUXAR</college>
+        <college code="156" type="government">GOVERNMENT ENGINEERING COLLEGE, BHOJPUR</college>
+        <college code="157" type="government">GOVERNMENT ENGINEERING COLLEGE, SHEIKHPURA</college>
+        <college code="158" type="government">GOVERNMENT ENGINEERING COLLEGE, LAKHISARAI</college>
+        <college code="159" type="government">GOVERNMENT ENGINEERING COLLEGE, SAMASTIPUR</college>
+        <college code="165" type="government">Shri Phanishwar Nath Renu Engineering College, Araria</college>
+        <college code="166" type="private">MILLIA KISHANGANJ COLLEGE OF ENGINEERING AND TECHNOLOGY, KISHANGANJ</college>
+        <college code="167" type="private">MILLIA INSTITUTE OF TECHNOLOGY, PURNIA</college>
+        <college code="168" type="private">PRABHU KAILASH ENGINEERING COLLEGE, AURANGABAD</college>
+        <college code="169" type="government">CENTRAL INSTITUTE OF PETROCHEMICALS ENGINEERING &amp; TECHNOLOGY, BIHTA, PATNA</college>
+        <college code="170" type="private">DR. ASHOK GAGAN COLLEGE, BIHTA PATNA</college>
+        <college code="171" type="private">Hi-tech Polytechnic College, Bettiah, West Champaran</college>
+        <college code="172" type="private">Rajeev College of Professional Education, Sitamarhi</college>
+        <college code="173" type="private">Institute of Management and Planning &amp; Advanced Computer Training, Patna</college>
+        <college code="174" type="private">Rungta Institute of Technology and Management, Araria</college>
+        <college code="175" type="private">J. P College of Engineering,biharsharif, Nalanda</college>
     </colleges>
 
     <departments>
@@ -55,36 +75,42 @@
         <dept code="104">Electronics &amp; Communication Engineering</dept>
         <dept code="105">Computer Science &amp; Engineering</dept>
         <dept code="106">Information Technology</dept>
-        <dept code="107">Leather Technology</dept>
-        <dept code="108">Electrical &amp; Electronics Engineering</dept>
-        <dept code="109">Instrumentation &amp; Control</dept>
-        <dept code="110">Production Engineering</dept>
-
+        <dept code="107">Leather Technology Engineering</dept>
+        <dept code="110">Electrical &amp; Electronics Engineering</dept>
+        <dept code="111">Instrumentation Engineering</dept>
+        <dept code="112">Fire Technology and Safety</dept>
+        <dept code="113">Mining Engineering</dept>
+        <dept code="114">Chemical Engineering</dept>
+        <dept code="115">Food Processing and Preservation</dept>
+        <dept code="116">Aeronautical Engineering</dept>
+        <dept code="117">Biomedical and Robotic Engineering</dept>
+        <dept code="118">3-D Animation and Graphics</dept>
+        <dept code="119">Civil Engineering With Computer Application</dept>
+        <dept code="124">Food Technology and Management</dept>
+        <dept code="125">Electronics and Instrumentation Engineering</dept>
         <dept code="151">CSE (Artificial Intelligence)</dept>
-        <dept code="152">CSE (Machine Learning)</dept>
+        <dept code="152">CSE (Cyber Security)</dept>
         <dept code="153">CSE (Data Science)</dept>
-        <dept code="154">CSE (Cyber Security)</dept>
-        <dept code="155">CSE (Internet of Things - IoT)</dept>
-        <dept code="156">CSE (Cloud Computing)</dept>
+        <dept code="154">CSE (IOT and Cyber Security Including Block Chain Technology)</dept>
+        <dept code="155">CSE (Internet of Things)</dept>
+        <dept code="156">CSE (Networks)</dept>
         <dept code="157">CSE (AI &amp; Machine Learning)</dept>
-        <dept code="158">CSE (Networks)</dept>
-        <dept code="159">CSE (Design &amp; Creative Technology)</dept>
-        <dept code="160">Computer Science &amp; Business Systems</dept>
-
-        <dept code="111">Artificial Intelligence &amp; Data Science</dept>
-        <dept code="112">Biomedical Engineering</dept>
-        <dept code="113">Mechatronics</dept>
-        <dept code="114">Robotics &amp; Automation</dept>
-        <dept code="115">3D Animation &amp; Graphics</dept>
-        <dept code="125">VLSI Design &amp; Technology</dept>
-        <dept code="126">Fire Technology &amp; Industrial Safety</dept>
-        <dept code="127">Food Technology</dept>
-        <dept code="128">Dairy Technology</dept>
-        <dept code="129">Textile Engineering</dept>
-        <dept code="130">Agriculture Engineering</dept>
-        <dept code="131">Mining Engineering</dept>
-        <dept code="132">Petroleum Engineering</dept>
-        <dept code="133">Aeronautical Engineering</dept>
+        <dept code="158">Agriculture Engineering</dept>
+        <dept code="159">Electronics Engineering (VLSI Design and Technology)</dept>
+        <dept code="160">Mechanical and Smart Manufacturing</dept>
+        <dept code="161">Mechatronics Engineering</dept>
+        <dept code="162">Robotics and Automation</dept>
+        <dept code="163">ECE (Advance Communication Technology)</dept>
+        <dept code="164">Artificial Intelligence (AI)</dept>
+        <dept code="165">Chemical Technology (Leather Technology)</dept>
+        <dept code="166">Computer Engineering</dept>
+        <dept code="167">Computer Science</dept>
+        <dept code="168">Electronic Engineering</dept>
+        <dept code="170">Marine Engineering</dept>
+        <dept code="171">Petrochemical Engineering</dept>
+        <dept code="172">Waste Management</dept>
+        <dept code="187">Chemical Engineering (Plastic &amp; Polymer)</dept>
+        <dept code="201">Bachelor of Architecture</dept>
     </departments>
     <batches>
         <batch code="22">22</batch>
