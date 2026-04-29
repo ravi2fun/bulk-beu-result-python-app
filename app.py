@@ -28,9 +28,9 @@ async def start_process():
     d_code = dept_select.value
     b_code = batch_select.value
     
-    reg_list = [f"{b_code}{d_code}{c_code}{i:03d}" for i in range(int(start_id.value), int(end_id.value) + 1)]
-    if checkbox.value:
-        reg_list += [f"{int(b_code)+1}{d_code}{c_code}{i:03d}" for i in range(901, 920)]
+    reg_list = yearback.value.split(',')
+    reg_list += [f"{b_code}{d_code}{c_code}{i:03d}" for i in range(1, int(regular.value) + 1)]
+    reg_list += [f"{int(b_code)+1}{d_code}{c_code}{i:03d}" for i in range(901, 901+int(lateral.value))]
     total = len(reg_list)
     
     # 3. UI Setup for Progress
@@ -55,7 +55,7 @@ async def start_process():
             data = fetch_student_result(reg, sem, year, exam_month_year)
 
             if data:
-                student_info = create_student_info(data)
+                student_info = create_student_info(data, sem)
                 all_students.append(student_info)
             
             # Update Progress Bar
@@ -76,8 +76,13 @@ async def start_process():
 # Helper to calculate academic timing
 def update_exam_details():
     try:
+        calculated_year = 2000
         # Calculate year of exam based on batch and semester
-        calculated_year = 2000 + int(batch_select.value) + int(sem_select.value) // 2
+        if batch_select.value:
+            calculated_year += int(batch_select.value)
+
+        if sem_select.value:
+            calculated_year += int(sem_select.value) // 2
 
         # Set Default Exam Held as Current Month/Year
         exam_held_record = now.strftime("%B/%Y")
@@ -94,7 +99,7 @@ def update_exam_details():
     except Exception as e:
         print(f"Calculation error: {e}")
 
-def create_student_info(data):
+def create_student_info(data, sem):
     # --- Student Info ---
     student_basic_info = {
         "Reg No": data["redg_no"],
@@ -116,8 +121,10 @@ def create_student_info(data):
     student_practical_subjects = dict(zip(practical_df['code']+' : '+practical_df['name'], practical_df['ese']))
 
     # --- SGPA, CGPA, Fail ---
+    sem_num = sem.count('I')+sem.count('V')*5
+
     student_result = {
-        "SGPA": data["sgpa"][0],
+        "SGPA": data["sgpa"][sem_num-1],
         "CGPA": data["cgpa"],
         "Result": data["fail_any"]
     }
@@ -160,10 +167,11 @@ with ui.card().classes('w-full max-w-2xl mx-auto mt-10 p-6 shadow-lg'):
         exam_held = ui.input("Exam Held").classes('flex-1')
     
     with ui.row().classes('w-full gap-4 mt-2'):
-        start_id = ui.number("Registartion Start", value=1, format='%d').classes('flex-1')
-        end_id = ui.number("Registration End", value=60, format='%d').classes('flex-1')
+        regular = ui.number("Number of Regular Students", value=60, format='%d').classes('flex-1')
+        lateral = ui.number("Number of Lateral Students", value=20, format='%d').classes('flex-1')
 
-    checkbox = ui.checkbox('Lateral Students').bind_value(data, 'enabled')
+    with ui.row().classes('w-full gap-4 mt-2'):
+        yearback = ui.textarea("Registration Number of Year Back Students (Comma Seperated)").classes('flex-1')
 
     ui.button("Start Bulk Scrape", on_click=start_process).classes("w-full mt-6 py-4 bg-blue-700 text-white font-bold")
     

@@ -131,8 +131,13 @@
     </semesters>
     <exam_held_records>
         <exam_held id="1" batch="22" sem="6">November/2025</exam_held>
-        <exam_held id="2" batch="22" sem="7">February/2025</exam_held>
+        <exam_held id="2" batch="22" sem="7">February/2026</exam_held>
         <exam_held id="3" batch="24" sem="2">November/2025</exam_held>
+        <exam_held id="4" batch="22" sem="5">July/2025</exam_held>
+        <exam_held id="5" batch="24" sem="1">May/2025</exam_held>
+        <exam_held id="6" batch="21" sem="8">May/2025</exam_held>
+        <exam_held id="7" batch="23" sem="4">December/2025</exam_held>
+        <exam_held id="8" batch="23" sem="3">July/2025</exam_held>
     </exam_held_records>
 
 </beu_config>
